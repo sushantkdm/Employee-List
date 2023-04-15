@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+  }
+  
+  h3 {
+    margin: 80px 10px 40px 10px;
+    color: white;
+  }
+
+  form {
+    margin: 20px auto;  
+    width: 100%;
+  }
+
+  label {
+    display: inline-block;;
+    margin: 10px;
+    font-size: 16px;
+    color: white;
+  }
+
+  input[type="text"],
+  input[type="number"] {
+    font-size: 15px;
+    display: inline-block;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    color: black;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    text-align: start;
+    margin: 10px;
+    padding: 10px 30px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #employees {
+    margin: 40px 10px 10px 10px;
+    width: auto;
+    color: white;
+  }
+  
+  #employee-list {
+    list-style: square;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li button {
+    width: 25%;
+    padding: 8px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  #message {
+    margin: 20px 10px 10px 10px;
+    width: 100%;
+    font-weight: bold;
+  }  
